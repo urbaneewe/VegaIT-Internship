@@ -1,0 +1,17 @@
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\bin\Debug\net6.0\Timesheet.Repository.deps.json
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\bin\Debug\net6.0\Timesheet.Repository.runtimeconfig.json
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\bin\Debug\net6.0\Timesheet.Repository.dll
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\bin\Debug\net6.0\Timesheet.Repository.pdb
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\bin\Debug\net6.0\Timesheet.Domain.dll
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\bin\Debug\net6.0\Timesheet.Domain.pdb
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.csproj.AssemblyReference.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.AssemblyInfoInputs.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.AssemblyInfo.cs
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.csproj.CoreCompileInputs.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.csproj.CopyComplete
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.dll
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\refint\Timesheet.Repository.dll
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.pdb
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\Timesheet.Repository.genruntimeconfig.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Repository\obj\Debug\net6.0\ref\Timesheet.Repository.dll

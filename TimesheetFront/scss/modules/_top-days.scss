@@ -1,0 +1,63 @@
+.day-table {
+	width: 100%;
+	border-bottom: 1px solid $grey-3;
+}
+.day-table__wrap {
+	overflow: hidden;
+	border-right: 1px solid $grey-3;
+	text-decoration: none;
+}
+.day-table__list {
+	display: table-cell;
+	width: 1%;
+	padding: 5px;
+	border: 1px solid $grey-3;
+	border-bottom: none;
+	border-right: none;
+	background: $white;
+	text-decoration: none;
+	transition: background $duration $easing;
+}
+.day-table__list--active,
+.day-table__list:hover {
+	background: $orange;
+
+	.day-table__span,
+	.day-table__month,
+	.day-table__day {
+		color: $white;
+	}
+}
+.day-table__link {
+	color: $grey-2;
+	display: block;
+	text-decoration: none;
+}
+.day-table__month {
+	font-size: 11px;
+	font-weight: normal;
+}
+.day-table__day {
+	font-size: 11px;
+	font-style: normal;
+	float: right;
+}
+.day-table__span {
+	display: block;
+	clear: both;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.show-on-mob {
+	display: none;
+}
+
+@media screen and (max-device-width: 768px) {
+	.show-on-mob {
+		display: block;
+	}
+	.hide-on-mob {
+		display: none;
+	}
+}

@@ -1,0 +1,44 @@
+.btn {
+	line-height: 34px;
+	color: $white;
+	font-size: 13px;
+	display: inline-block;
+	padding: 0 20px;
+	text-decoration: none;
+	margin: 10px;
+	border-radius: 4px;
+	border: 0;
+	cursor: pointer;
+}
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn-wrap {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.btn--green {
+	background-color: $green;
+	color: $white;
+}
+
+.btn--transparent {
+	background-color: $grey-1;
+	color: $black;
+}
+
+.btn--red {
+	background-color: $red;
+}
+
+.btn--orange {
+	background-color: $orange;
+}
+.toggle-btn {
+	background-color: transparent;
+	border: none;
+}

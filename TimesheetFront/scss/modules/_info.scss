@@ -1,0 +1,88 @@
+.info__form {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+@media screen and (max-device-width: 768px) {
+	.info__form {
+		flex-direction: column;
+	}
+}
+
+.info__list {
+	width: 222px;
+	margin: 10px 22px;
+}
+
+.info__list-radio-button {
+	width: 7%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: space-around;
+	align-items: center;
+}
+
+.info__list-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 30px;
+}
+
+.radio-label {
+	color: $black;
+}
+
+.radio-button__wrapper {
+	display: flex;
+	padding: 10px 0;
+	flex-direction: column;
+}
+
+.radio-button__title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: $black;
+	padding: 0 10px;
+	padding-left: 0;
+}
+
+.info__label {
+	display: block;
+	margin-bottom: 3px;
+	color: $grey-2;
+}
+
+.info__select {
+	width: 100%;
+	height: 36px;
+	padding: 0 4px;
+}
+
+.info__select {
+	background: $white;
+	border: solid 1px $grey-6;
+	border-radius: 4px;
+	height: 34px;
+}
+
+.projects-table {
+	width: 100%;
+	border: 1px solid $grey-5;
+	margin: 10px 0 20px;
+	background: $white;
+}
+
+.projects-table th {
+	font-weight: 600;
+	text-align: left;
+	background: $grey-5;
+}
+
+.projects-table td,
+.projects-table th {
+	border: 1px solid $grey-5;
+	padding: 5px;
+}

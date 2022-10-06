@@ -1,0 +1,21 @@
+.initial-form {
+	max-width: 540px;
+	margin: 200px auto;
+	background-color: $grey-4;
+	border-radius: 4px;
+
+	.info__list {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.in-text {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+.initial-form__checkbox {
+	margin-right: auto;
+}

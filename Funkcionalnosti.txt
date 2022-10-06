@@ -1,0 +1,55 @@
+---GENERAL---
+Login.
+Prikaz navigacionog bara sa linkovima stranica.
+Prikaz trenutno ulogovanog korisnika.
+Izmena lozinke.
+Pregled podesavanja.
+Export-ovanje svih podataka.
+Logout.
+
+---TIMESHEET---
+Pregled dana i odradjenih sati u mesecu.
+Pregled celog meseca ili pregled nedelje sa izborom klijenta, projekta, kategorije, opisa(opciono), sati i prekovremenog rada.
+
+---CLIENTS---
+Prikaz svih klijenata sa mogucnoscu izmene podataka o klijentima.
+Kreiranje novog klijenta.
+Pretraga i sortiranje klijenata.
+Brisanje klijenta.
+Paginacija.
+
+---PROJECTS---
+Prikaz svih projekata sa mogucnoscu izmene podataka o projektima.
+Kreiranje novog projekta.
+Pretraga i sortiranje projekata.
+Brisanje projekta.
+Paginacija.
+
+---CATEGORIES---
+Prikaz svih kategorija sa mogucnoscu izmene imena kategorije.
+Kreiranje nove kategorije.
+Pretraga i sortiranje kategorija.
+Brisanje kategorije
+Paginacija.
+
+---EMPLOYEES---
+Prikaz svih zaposlenih i njihovih osnovnih informacija sa mogucnoscu izmene podataka.
+Kreiranje novog zaposlenog.
+Brisanje zaposlenih.
+Paginacija.
+
+---REPORTS---
+Prikaz svih izvestaja.
+Pretraga izvestaja po klijentu, projektu, kategoriji, zaposlenom, nedelji i mesecu(prethodna, trenutna i sledeca) i pocetnom i krajnjem datumu.
+Reset parametara pretrage.
+Stampanje izvestaja.
+Konverzija izvestaja u PDF.
+Export u excel.
+
+
+
+
+
+
+
+

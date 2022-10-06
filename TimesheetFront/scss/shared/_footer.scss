@@ -1,0 +1,17 @@
+footer {
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	font-size: 11px;
+	background: $grey-1;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.wrapper-narrow {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+footer ul li {
+	margin-right: 10px;
+}

@@ -1,0 +1,29 @@
+.pagination {
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.pagination__navigation {
+	display: flex;
+}
+
+.pagination__list {
+	padding: 0 10px;
+}
+.pagination__button {
+	color: $black;
+	text-decoration: none;
+}
+
+.pagination__button:hover {
+	text-decoration: underline;
+}
+
+.pagination__button--active {
+	border: 1px solid $orange;
+	border-radius: 5px;
+	padding: 4px 6px;
+}

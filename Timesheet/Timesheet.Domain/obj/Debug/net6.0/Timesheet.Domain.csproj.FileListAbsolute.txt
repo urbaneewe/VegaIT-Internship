@@ -1,0 +1,14 @@
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\bin\Debug\net6.0\Timesheet.Domain.deps.json
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\bin\Debug\net6.0\Timesheet.Domain.runtimeconfig.json
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\bin\Debug\net6.0\Timesheet.Domain.dll
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\bin\Debug\net6.0\Timesheet.Domain.pdb
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.csproj.AssemblyReference.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.AssemblyInfoInputs.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.AssemblyInfo.cs
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.dll
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\refint\Timesheet.Domain.dll
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.pdb
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\Timesheet.Domain.genruntimeconfig.cache
+C:\Users\mihajlo.saric\Desktop\project\Timesheet\Timesheet.Domain\obj\Debug\net6.0\ref\Timesheet.Domain.dll

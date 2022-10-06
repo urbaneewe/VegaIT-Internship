@@ -1,0 +1,157 @@
+.header {
+	background-color: $orange;
+	padding: 15px;
+}
+
+.inner-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: space-around;
+}
+
+.logo {
+	width: 115px;
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	img {
+		max-width: 100%;
+		display: block;
+		width: 115px;
+	}
+}
+
+.navigation {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navigation__text {
+	z-index: 10;
+}
+
+.navigation__menu {
+	display: flex;
+}
+
+.navigation__list {
+	margin-right: 5px;
+}
+
+.navigation__button {
+	height: 38px;
+	line-height: 36px;
+	color: $white;
+	font-size: 14px;
+	padding: 0 10px;
+	border-radius: 4px;
+	text-decoration: none;
+	border: 1px solid transparent;
+	transition: border $duration $easing;
+}
+
+.navigation__button:hover {
+	border: 1px solid $white;
+}
+
+.navigation__button--active {
+	height: 39px;
+	color: $white;
+	border-color: $white;
+	position: relative;
+	z-index: 1;
+	border: 1px solid $white;
+}
+
+.user {
+	position: relative;
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.user__nav {
+	&:hover {
+		.user__dropdown {
+			display: block;
+		}
+	}
+}
+
+.user__name {
+	position: relative;
+	line-height: 36px;
+	color: $white;
+	font-size: 14px;
+	border: solid 1px transparent;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.user__name::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 1px;
+	height: 20px;
+	background-color: $white;
+}
+
+.user__dropdown {
+	display: none;
+	background-color: $white;
+	position: absolute;
+	z-index: 10;
+	border: 1px solid rgb(202, 202, 202);
+}
+
+.user__list {
+	padding: 5px;
+	border-top: solid 1px rgb(202, 202, 202);
+}
+
+.user__link {
+	text-decoration: none;
+	padding: 3px;
+	color: $grey-2;
+}
+
+@media only screen and (max-width: 991px) {
+	.user {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: center;
+		position: absolute;
+		left: 45px;
+		top: 0;
+		justify-content: center;
+	}
+}
+
+.logout {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.logout__link {
+	color: $white;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.logout__link:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+## layout
+--------------------------------------------------------------*/
+html, body {
+	overflow-x: hidden;
+	margin: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin: 0;
+	color: $grey-2;
+	font-weight: 400;
+	box-sizing: border-box;
+	padding: 0;
+}
+p {
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, textarea, select {
+	outline: none;
+}
+
+.main {
+	position: relative;
+	width: 100%;
+}
+nav ul, nav ol, ul, li {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+

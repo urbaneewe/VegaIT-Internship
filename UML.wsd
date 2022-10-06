@@ -1,0 +1,91 @@
+@startuml UML
+scale 0.9
+enum ProjectStatus{
+    Active
+    Inactive
+    Archive
+}
+class Project{
+    -Id: guid 
+    -Name: string
+    -Description: string
+    -Client: Client
+    -Lead: Employee
+    -Status: ProjectStatus
+}
+
+enum EmployeeStatus{
+    Active
+    Inactive
+}
+
+enum EmployeeRole{
+    Admin
+    Worker
+}
+
+class Employee{
+    -Id: guid
+    -Name: string
+    -Username: string
+    -Password: string
+    -HoursPerWeek: double
+    -Email: string
+    -Status: EmployeeStatus
+    -Role: EmployeeRole
+}
+
+class Client{
+    -Id: guid
+    -Name: string
+    -Address: Address
+}
+
+class Address{
+    -Id: guid
+    -Address: string
+    -City: string
+    -PostalCode: int
+    -Country: Country
+}
+
+class Country{
+    -Id: guid
+    -Name: string
+}
+
+class Category{
+    -Id: guid
+    -Name: string
+}
+
+class Timesheet{
+    -Id: guid
+    -Client: Client
+    -Project: Project
+    -Category: Category
+    -Description: string
+    -Hours: DateTime
+    -Overtime: double
+}
+
+class TimesheetByDay{
+    -Id: guid
+    -Date: DateTime
+    -Employee: Employee
+    -TotalHours: double
+}
+
+Project "1..*  " -- "1..*" Employee
+Project "1..*" -- "1   " Client
+Project "1 " -- "1..* " Timesheet
+Timesheet "1..*" -- "1 " Category
+Timesheet "1 ..*   " -- "1 " Employee
+Timesheet "0..*" -- TimesheetByDay
+Country "1 " -- "1..* " Address
+Address "1 " -- "1..* " Client
+ProjectStatus -[hidden]- Project
+Employee -[hidden]- EmployeeRole
+Employee -[hidden]- EmployeeStatus
+
+@enduml

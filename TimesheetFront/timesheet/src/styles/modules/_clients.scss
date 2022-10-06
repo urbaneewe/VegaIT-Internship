@@ -1,0 +1,29 @@
+.info__form {
+	position: relative;
+}
+
+.info__wrapper {
+	display: flex;
+	flex-direction: row;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.in-text {
+	background: $white;
+	border: solid 1px $grey-6;
+	border-radius: 4px;
+	height: 34px;
+	padding: 0 15px;
+}
+
+.info__list-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	justify-content: space-evenly;
+
+	.info__list-title {
+		padding-left: 0;
+	}
+}
